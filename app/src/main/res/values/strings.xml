@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnotherCalc</string>
+    <string-array name="types">
+        <item>Distance</item>
+        <item>Mass</item>
+        <item>Speed</item>
+        <item>Volume</item>
+    </string-array>
+</resources>

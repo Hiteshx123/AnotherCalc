@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:gravity="center"
+            android:longClickable="true"
+            android:textAlignment="viewEnd"
+            android:textColor="#FCFBFB"
+            android:textIsSelectable="true"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:gravity="center"
+            android:longClickable="true"
+            android:textAlignment="viewEnd"
+            android:textColor="#FCFBFB"
+            android:textIsSelectable="true"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:gravity="center"
+            android:longClickable="true"
+            android:textAlignment="viewEnd"
+            android:textColor="#FCFBFB"
+            android:textIsSelectable="true"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:gravity="center"
+            android:longClickable="true"
+            android:textAlignment="viewEnd"
+            android:textColor="#FCFBFB"
+            android:textIsSelectable="true"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.65"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hapticFeedbackEnabled="true"
+            android:text="History"
+            android:textColor="#FAFFFEFE" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hapticFeedbackEnabled="true"
+            android:text="Units"
+            android:textColor="#FAFFFEFE" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hapticFeedbackEnabled="true"
+            android:text="Delete"
+            android:textColor="#FAFFFEFE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="CE"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="7"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="4"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="1"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="."
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="x^"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="8"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="5"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="2"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="0"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="( )"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="9"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="6"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="3"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#1B1A1A"
+                android:hapticFeedbackEnabled="true"
+                android:text="+/-"
+                android:textColor="#FFFCFC"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="/"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="*"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="-"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141313"
+                android:hapticFeedbackEnabled="true"
+                android:text="+"
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:text="="
+                android:textColor="#F44336"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
